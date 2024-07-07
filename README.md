@@ -79,3 +79,10 @@ Emily Johnson
         
   # sign up page
         This page will allow the user to get signed up to Brados Techouse to start their journey part in road to future Thoughts. The user will be asked to submit their name email address and a password.
+![sign up](image-8.png)
+## footer section
+HTML structure for the footer section of the Brados Techouse is detailed with the main elements and their purposes, ensuring the footer is easy.
+
+The footer section is divided into several parts to organize the content effectively: Footer Left, Footer Center, Footer Right, Footer Bottom, and Social Media Icons.
+![footer](image-9.png)
+
