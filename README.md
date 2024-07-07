@@ -77,3 +77,5 @@ Emily Johnson
   
   ![history and pricing](image-6.png)
         
+  # sign up page
+        This page will allow the user to get signed up to Brados Techouse to start their journey part in road to future Thoughts. The user will be asked to submit their name email address and a password.
