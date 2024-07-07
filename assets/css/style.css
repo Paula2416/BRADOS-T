@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #8989ec; /* Adjust the color to match the background */
+    background-color: #8989ec; 
     color: white;
     padding: 10px;
 }
@@ -468,4 +468,134 @@ nav {
         font-weight: bold;
         margin-bottom: 20px;
         text-align: center;
+      }
+      .call-to-action {
+        background-color: #007bff; 
+        color: #fff;
+        text-align: center;
+        padding: 40px 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .call-to-action p {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .call-to-action .button {
+        display: inline-block;
+        background-color: #0b9ee2; 
+        color: #fff;
+        padding: 15px 30px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .call-to-action .button:hover {
+        background-color: #a9b4c2; 
+    }
+    
+    .call-to-action .button:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: left 0.3s ease-in-out;
+    }
+    
+    .call-to-action .button:hover:after {
+        left: 100%;
+    }
+    
+    /* Scroll Animation */
+    @keyframes float {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    
+    .call-to-action .button {
+        animation: float 3s ease-in-out infinite;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .call-to-action {
+            padding: 20px 10px;
+        }
+    
+        .call-to-action p {
+            font-size: 1.2rem;
+        }
+    
+        .call-to-action .button {
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
+    }
+    .container {
+        max-width: 1200px;
+        margin: 40px auto;
+        text-align: center;
+      }
+      
+      .footer-left, .footer-center, .footer-right , .footer-bottom
+      {
+        display: inline-block;
+        vertical-align: top;
+      }
+      
+      .footer-left {
+        width: 0%;
+        font-weight: bold;
+        padding: 0;
+      }
+      
+      .footer-center {
+        width: 25%;
+      }
+      
+      .footer-right {
+        width: 30%;
+      }
+      
+      @media (max-width: 768px) {
+        .container {
+          font-size: 16px;
+          margin-top: 20px;
+          text-align: center;
+          padding-bottom: 20px;
+        }
+        
+        .footer-left, .footer-center, .footer-right {
+          display: block;
+          margin-bottom: 10px;
+          text-align: left;
+          width: auto;
+          padding-left: 20px;
+          border-bottom: 1px solid #ccc;
+        }
+        
+      }
+      .icon ul li {
+        text-align: inline;
+        float: right;
+        position: relative;
       }
