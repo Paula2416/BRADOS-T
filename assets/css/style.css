@@ -247,7 +247,7 @@ nav {
 .pricing {
     text-align: center;
     padding: 50px 20px;
-    background-color: none;
+   
 }
 
 .pricing-plan {
@@ -328,11 +328,8 @@ nav {
 }
 .about-us {
     padding: 40px;
-    background-color:none;
- 
     border-radius: 10px;
-    
-  text-align: center;
+    text-align: center;
 }
 
   
@@ -594,11 +591,7 @@ nav {
         }
         
       }
-      .icon ul li {
-        text-align: inline;
-        float: right;
-        position: relative;
-      }
+   
       .signup-section {
         position: relative;
         height: 100vh; 
