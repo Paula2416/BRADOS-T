@@ -84,5 +84,6 @@ Emily Johnson
 HTML structure for the footer section of the Brados Techouse is detailed with the main elements and their purposes, ensuring the footer is easy.
 
 The footer section is divided into several parts to organize the content effectively: Footer Left, Footer Center, Footer Right, Footer Bottom, and Social Media Icons.
+
 ![footer](image-9.png)
 
