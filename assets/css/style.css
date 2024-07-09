@@ -366,11 +366,6 @@ font-size: 80%;
     text-align: center;
     animation: zoomIn 6s ease-in-out;
   }
-  #welcome h4 {
-text-align: center;
-font-size: 50%;
-justify-content: center;
-  }
   
   #brand {
     font-size: 20px;
@@ -646,21 +641,24 @@ justify-content: center;
         z-index: -1;
         transform: translateZ(-1px) scale(1.1); 
         transition: transform 8s ease-out; 
+        opacity: 70%;
     }
     
     .form-container {
         max-width: 400px;
         padding: 20px;
-        background: rgba(255, 255, 255, 0.9); 
+        background: none; 
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         z-index: 1; 
+        justify-content: center;
     }
     
     .form-container h2 {
-        text-align: center;
+       justify-content: space-around;
         margin-bottom: 20px;
-        color: #333;
+        color: #0509fc;
+        font-size: 300%;
     }
     
     .form-group {
@@ -670,15 +668,18 @@ justify-content: center;
     .form-group label {
         display: block;
         margin-bottom: 8px;
-        color: #666;
+        color: #3904fc;
+        font-size: 200%;
+        text-align: center;
+        font-weight: bold;
     }
     
     .form-group input[type="text"],
-    .form-group input[type="email"],
-    .form-group input[type="password"] {
+    .form-group input[type="email"]
+    {
         width: 100%;
         padding: 10px;
-        font-size: 16px;
+        font-size: 20px;
         border: 1px solid #ddd;
         border-radius: 4px;
     }
@@ -703,6 +704,22 @@ justify-content: center;
             width: 90%;
         }
     }
+    .confirmation-section {
+            max-width: 400px;
+            padding: 20px;
+            background: none; 
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1; 
+            text-align: center;
+        }
+
+    @media screen and ( max-width:768px)
+    {
+        .confirmation-section {
+            width: 90%;
+    }
+}
 
 
 

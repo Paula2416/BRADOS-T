@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Confirmation Page</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1 class="logo">Brados <span>Techouse</span></h1>
+        </a>
+    </header>
+    <main>
+        <img src="assets/images/background.jpg" alt="background" class="background-image">
+        <section class="confirmation-section">
+            <div class="form-container">
+                <h2>Congratulations</h2>
+                <p>
+                    If you are reading this ,am with all humility and gladdness to confirm that you have successfully signed up to Brados Techouse
+                </p>
+                <div class="form-group">
+                    <label>Username:</label>
+                    <p id="confirm-username"></p>
+                </div>
+                <div class="form-group">
+                    <label>Email:</label>
+                    <p id="confirm-email"></p>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+   
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('username');
+        const email = urlParams.get('email');
+
+        document.getElementById('confirm-username').innerText = username;
+        document.getElementById('confirm-email').innerText = email;
+
+        function submitForm() {
+  
+            alert('Form submitted successfully!');
+           
+            window.location.href = 'thankyou.html';
+        }
+    </script>
+</body>
+</html>
