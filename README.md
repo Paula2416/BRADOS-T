@@ -87,3 +87,4 @@ The footer section is divided into several parts to organize the content effecti
 
 ![footer](image-9.png)
 
+
