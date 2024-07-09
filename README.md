@@ -4,30 +4,26 @@ Welcome to the future of minds! [Brados Techouse](https://paula2416.github.io/BR
 Brados Techouse is a club that brings your thoughts to life, premiering destinys for the innovative technology solutions of mind control,ai intergration and neurotech .With a change for the future, we make life more creative and innovative with our
  minds.
  # Our site 
- ![site](image.png)
+ ![our site](image-10.png)
   # Existing Features
 
 ## navigation bar
-        Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About Us and Sign Up page and is identical in each page to allow for easy navigation though the website.This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page using the back button.
+      Here are full responsive navigation bar including links to the Logo, Home page, About Us and Sign Up page and is identical in each page to allow easy navigation though the website.This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page using the back button.
  # navigation bar
  ![navigation bar](image-1.png)
- # Destination page
+ # HOME PAGE
+ ## Destination page
 
-   The destination page includes a photograph with text overlay to welcome the user with a belief introductionabot the Techouse.This page is to mostly introduces the user with the Technology image at the background and the heading one to the life changing club 'Brados Techouse.
+
+   The destination page includes a photograph with text overlay to welcome the user with a belief introduction about the Techouse.This page is to mostly introduce the user with the Technology image at the background and the heading one to the life changing club 'Brados Techouse.
 # HOME PAGE
 ## hero image
-![hero image](image-2.png)
+![hero image](image-11.png)
 
-## Welcome
+## Our vision
 
-## Coming in 9D with technology with our Team
-
-#### The future with advanced technology
-
-## Our Mission
-
-At Brados Techouse, our mission is to seamlessly integrate advanced AI, mind control, and neurotech innovations into everyday life. We believe that technology should not only be powerful but also intuitive and accessible, empowering individuals and businesses to achieve their full potential.
-![welcome](image-4.png)
+At Brados Techouse, our vision is to seamlessly integrate advanced AI, mind control, and neurotech innovations into everyday life. We believe that technology should not only be powerful but also intuitive and accessible, empowering individuals and businesses to achieve their full potential.
+![our vision](image-12.png)
  
  ## Our Goal 
 At Brados Techouse, we are committed to achieving excellence through our core goals. These goals guide our efforts to deliver exceptional value and drive positive change to the future .
@@ -48,8 +44,9 @@ At Brados Techouse, we are committed to achieving excellence through our core go
         Engaging with and giving back to our communities is a core value at Brados Techouse. We actively participate in various initiatives and programs that support and uplift our communities. Through our community engagement efforts, we aim to make a positive impact and contribute to the well-being of society.
 
 These goals are integral to our mission at Brados Techouse, guiding our work and helping us achieve our vision of creating a better, more technologically advanced world.
-![our goal](image-3.png)
+![our goals](image-2.png)
 # ABOUT US PAGE
+
 ## Our Team
 
 Meet the brilliant minds behind Brados Techouse. Our team is composed of dedicated professionals who are passionate about technology and innovation. Together, we strive to push the boundaries of what’s possible and deliver cutting-edge solutions to our clients and users.
@@ -62,7 +59,7 @@ Janef Smith
  ### COO
 Emily Johnson
  Emily ensures our operations run smoothly, integrating technology into our daily processes. Her operational acumen and strategic planning skills are vital in aligning our technology initiatives with our business goals. Emily’s efforts ensure that our projects are executed efficiently and effectively.
- ![our team](image-5.png)
+![our team](image-3.png)
 
 ## history
  ### Founded in 2010, Brados Techouse has been at the forefront of technological innovation for over a decade...
