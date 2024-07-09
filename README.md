@@ -127,6 +127,8 @@ From line 1, column 1; to line 1, column 15 and  line 154, column 8
         No errors were returned when passing through the official W3C validator
     CSS
         No errors were found when passing through the official (Jigsaw) validator
-
+   Performance
+   i also identified that my colors and fonts used are well accessed and use in devtools .
+ ![performance](image-7.png)
 
 
