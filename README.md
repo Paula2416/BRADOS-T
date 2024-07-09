@@ -105,9 +105,20 @@ The footer section is divided into several parts to organize the content effecti
   * i tested all the links and confirmed that they work and lead oto there designed pages .
 
   # bugs 
-    When i ran my index.html code in the W3C validator ,i got eror that included repeated class ; 
-    i also discovered the i used headings in the wrong place 
-    * remvoing all the repeated class in my text fixed the code  
+  #### index.html
+  *  When i ran my index.html code in the W3C validator ,Section lacked heading,
+  i was explained to my the W3C to consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+  ---i add a div to he index.html
+
+  *  i also discovered that using 'h1' headings is for top level heading only and i did not change because i considered the h1 at line 32 column 17 to line 32 column 20 as a top-level heading . 
+
+#### aboutus.html and signup.html
+*  i tested the aboutus.html and signup.html in the code validator which gave an error ; Style sheets should not include HTML syntax.
+
+From line 1, column 1; to line 1, column 15 and  line 154, column 8
+   ---which i fixed by removing the DOCTYPE html 
+#### signup.html
+  
 
 
  # Validator Testing
