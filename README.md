@@ -130,5 +130,19 @@ From line 1, column 1; to line 1, column 15 and  line 154, column 8
    Performance
    i also identified that my colors and fonts used are well accessed and use in devtools .
  ![performance](image-7.png)
+  ## Deployment 
+  I deplyed this site to Github pages ,following the steps; 
+  * open the Github respository and navigate to the settings tap 
+  * from the source section drop-down menu ,seect the master branch 
+  * once the master branch has been selected ,the page provided the link to the completed website
+   # NB 
+   ## CREDITS
+    * The steps followed to deploy were got from
+https://learn.codeinstitute.net
+   * some of the code was code from slack team mostly the css (translates) (media)
+
+ ### media 
+ * all the images were taken from https://www.pinterest.com/
+
 
 
