@@ -94,7 +94,28 @@ The footer section is divided into several parts to organize the content effecti
 |Tap the sign up link in the navigation bar  | Loads Sign Up page              |  Pass     |
 |Tap the sign up today link in the index.html| loads the Sign up page          | Pass     |
 |Sign up in the sign up page                 | Loads the confirmation.html     |  Pass     |
-||Tap the facebook link in the footer        | Loads to facebook signup page   |  Pass    |
+|Tap the facebook link in the footer         | Loads to facebook signup page   |  Pass    |
 |Tap the instagram link in the footer        | loads to instagram signup page  |  Pass     |
 |Tap the twiiter link in the footer          | Loads to twitter signup page    | Pass    |
+
+
+# Testing 
+  * i tested this page and it works in the different websites that is to say :Chrome ,Safari , Google and Firebox .
+  * i tested this website and i confirmed that i is responsive and looks good on all sizes and platforms.
+  * i tested all the links and confirmed that they work and lead oto there designed pages .
+
+  # bugs 
+    When i ran my index.html code in the W3C validator ,i got eror that included repeated class ; 
+    i also discovered the i used headings in the wrong place 
+    * remvoing all the repeated class in my text fixed the code  
+
+
+ # Validator Testing
+
+    HTML
+        No errors were returned when passing through the official W3C validator
+    CSS
+        No errors were found when passing through the official (Jigsaw) validator
+
+
 
