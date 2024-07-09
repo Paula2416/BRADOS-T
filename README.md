@@ -64,6 +64,8 @@ Emily Johnson
 ## history
  ### Founded in 2010, Brados Techouse has been at the forefront of technological innovation for over a decade...
             Our journey began with a small team of passionate individuals committed to making a difference through technology. Over the years, we have grown into a leading tech company, continuously pushing the boundaries of what is possible. From our early days of AI integration to our current advancements in neurotech, we have always focused on delivering exceptional value to our clients and transforming the future.
+  ![history](image-5.png)
+
 
 ## pricing
  Pricing section of the Brados Techouse website outlines the main elements and their purposes, helping maintain and update the website content effectively. showcases the subscription plans offered by Brados Techouse, detailing their features and monthly costs.
@@ -72,7 +74,7 @@ Emily Johnson
  ### Plan 2
   $59.99 Monthly cost with the billing period,features included in plan 2 are; Enterprise AI integration solutions ,Professional grade mind control technology and Advanced neurotech for research and development
   
-  ![history and pricing](image-6.png)
+![Pricing](image-6.png)
         
   # sign up page
         This page will allow the user to get signed up to Brados Techouse to start their journey part in road to future Thoughts. The user will be asked to submit their name email address and a password.
@@ -83,5 +85,16 @@ HTML structure for the footer section of the Brados Techouse is detailed with th
 The footer section is divided into several parts to organize the content effectively: Footer Left, Footer Center, Footer Right, Footer Bottom, and Social Media Icons.
 
 ![footer](image-9.png)
+#  Functional Testing 
 
+| Action                                       |Expected  Behaviour            | Pass/Fail|
+| -------------------------------------------| --------------------------      | ---------|
+|Open URL link                               | Loads Home page                 |  Pass    |  
+|Tap the about us link in the navigation bar | Loads About Us page             | Pass      |
+|Tap the sign up link in the navigation bar  | Loads Sign Up page              |  Pass     |
+|Tap the sign up today link in the index.html| loads the Sign up page          | Pass     |
+|Sign up in the sign up page                 | Loads the confirmation.html     |  Pass     |
+||Tap the facebook link in the footer        | Loads to facebook signup page   |  Pass    |
+|Tap the instagram link in the footer        | loads to instagram signup page  |  Pass     |
+|Tap the twiiter link in the footer          | Loads to twitter signup page    | Pass    |
 
