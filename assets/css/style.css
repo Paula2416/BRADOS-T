@@ -645,15 +645,19 @@ font-size: 80%;
     }
     
     .form-container {
-        max-width: 400px;
+        max-width: 500px;
         padding: 20px;
-        background: none; 
+        background: white; 
         border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        z-index: 1; 
+        box-shadow: 6 10 10px rgba(8, 4, 233, 0.911);
+        z-index:1; 
         justify-content: center;
     }
-    
+    .form-container p {
+        color: #080808;
+       justify-content: space-around;
+    }
+        
     .form-container h2 {
        justify-content: space-around;
         margin-bottom: 20px;
@@ -668,7 +672,7 @@ font-size: 80%;
     .form-group label {
         display: block;
         margin-bottom: 8px;
-        color: #3904fc;
+        color: #080808;
         font-size: 200%;
         text-align: center;
         font-weight: bold;
@@ -701,25 +705,11 @@ font-size: 80%;
     
     @media screen and (max-width: 768px) {
         .form-container {
-            width: 90%;
+            width: 100%;
         }
     }
-    .confirmation-section {
-            max-width: 400px;
-            padding: 20px;
-            background: none; 
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            z-index: 1; 
-            text-align: center;
-        }
+   
 
-    @media screen and ( max-width:768px)
-    {
-        .confirmation-section {
-            width: 90%;
-    }
-}
 
 
 
