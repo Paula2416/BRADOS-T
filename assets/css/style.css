@@ -11,16 +11,17 @@ body {
 }
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     color: #fff;
-    background: linear-gradient( #020024, #8989ec, #bfbbf5);
+    background:rgb(139, 119, 196);
     box-shadow: 0 8px 12px rgba(253, 251, 251, 0.925);
 }
 .logo {
     font-size: 24px;
     color: #fff;
+ 
 }
 
 
@@ -40,6 +41,7 @@ nav {
 }
 .nav-list li {
     position: relative;
+    text-align: center;
 }
 .nav-list a {
     color: #4606f8;
