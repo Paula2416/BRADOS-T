@@ -62,9 +62,9 @@ Meet the brilliant minds behind Brados . Our team is composed of dedicated profe
   
 ![Pricing](image-6.png)
         
-  # sign up page
+  # SIGNUP PAGE
  This page will allow the user to get signed up to Brados Techouse to start their journey part in road to future Thoughts. The user will be asked to submit their name email address and a password.
-![sign up](image-8.png)
+![signup](image-15.png)
 
 ## footer section
 HTML structure for the footer section of the Brados Techouse is detailed with the main elements and their purposes, ensuring the footer is easy.
@@ -72,6 +72,11 @@ HTML structure for the footer section of the Brados Techouse is detailed with th
 The footer section is divided into several parts to organize the content effectively: Footer Left, Footer Center, Footer Right, Footer Bottom, and Social Media Icons.
 
 ![footer](image-9.png)
+
+## Confirmation page
+This page is opened when one signup successfully 
+![confirmation page](image-16.png)
+
 #  Functional Testing 
 
 | Action                                       |Expected  Behaviour            | Pass/Fail|
@@ -91,6 +96,7 @@ The footer section is divided into several parts to organize the content effecti
   * i tested this website and i confirmed that i is responsive and looks good on all sizes and platforms.
   * i tested all the links and confirmed that they work and lead oto there designed pages .
 
+
   # bugs 
   #### index.html
   *  When i ran my index.html code in the W3C validator ,Section lacked heading,
@@ -100,11 +106,17 @@ The footer section is divided into several parts to organize the content effecti
   *  i also discovered that using 'h1' headings is for top level heading only and i did not change because i considered the h1 at line 32 column 17 to line 32 column 20 as a top-level heading . 
 
 #### aboutus.html and signup.html
-*  i tested the aboutus.html and signup.html in the code validator which gave an error ; Style sheets should not include HTML syntax.
+i tested the aboutus.html and signup.html in the code validator which gave an error ; Style sheets should not include HTML syntax.
 
 From line 1, column 1; to line 1, column 15 and  line 154, column 8
-   ---which i fixed by removing the DOCTYPE html 
-#### signup.html
+* There was a start tag error which i fixed by adding the <!DOCTYPE html>
+
+* The form tag was closed yet there were open elements which i solved by losing the open tags
+ ![errors on signup page](image-13.png)
+
+# unfixed bugs
+The bug below appeared when i was final testing my html and i could not fix it  
+![unfixed](image-14.png)
   
 
 
